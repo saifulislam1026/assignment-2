@@ -27,6 +27,14 @@ nav ul li{
     margin-top: 13px;
 
 }
+
+.nav-icon{
+    display: none;
+}
+
+.horizon-bar{
+    display: none;
+}
 #scl{
     margin-right: 500px;
     margin-top: 29px;
@@ -65,7 +73,7 @@ nav ul li{
     justify-content: space-between;
 }
 .boys-title{
-    font-size: 38px;
+    font-size: 2.4rem;
     font-weight: bold;
 }
 .boys-description{
@@ -75,7 +83,7 @@ nav ul li{
     color: #FEA301;
 }
 #second-clr{
-  color: #01ACFD;
+  color: rgb(1, 172, 253);
 }
 .boys-btn{
     color: white;
@@ -89,4 +97,115 @@ nav ul li{
   width: 465px;
   height: 560px;
   margin-top: -100px;
+}
+
+/* school Routine */
+.routine-title{
+    margin-top: -700px;
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+.daily-routine{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.boy-1{
+    border: 1px solid rgb(1, 172, 253) ;
+    border-radius: 15px;
+    align-items: center;
+    padding: 20px;
+    padding-left: 70px;
+    margin-left: 50px;
+    /* box-shadow: 0px 4px 10px rgb(1, 172, 253) ; */
+    background: linear-gradient(180deg, rgb(222, 245, 255));
+}
+.boy-2{
+    border: 1px solid rgba(240, 168, 0, 0.612) ;
+    border-radius: 15px;
+    align-items: center;
+    padding: 20px;
+    padding-left: 70px;
+    margin-left: 20px;
+}
+.boy-3{
+    border: 1px solid rgba(136, 0, 255, 0.628) ;
+    border-radius: 12px;
+    align-items: center;
+    padding: 20px;
+    padding-left: 70px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+.boys-mam{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.boys-sir{
+    color: #808080;
+}
+.boy-btn1{
+    color: #01ACFD;
+    padding-top: 20px;
+    padding-left: 24px;
+    
+}
+.boy-btn2{
+    color: #F0AA00;
+    text-align: center;
+}
+.boy-btn3{
+    color: #8700FF;
+    text-align: center;
+}
+.boy-3-img{
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.boy-2-img{
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.boy-1-img{
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive device for mobile */
+@media screen and (max-width: 576px) {
+    .nav-icon{
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        left: -300px;
+    }
+    .horizon-bar{
+       display: inline-block;
+       color: orange;
+    }
+    
+    .homebar{
+        display: none;
+    }
+    .boys-container{    
+       flex-direction: column-reverse;
+        width: 70%;
+        margin-right: 500px;
+
+    }
 }
