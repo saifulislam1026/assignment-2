@@ -1,0 +1,92 @@
+
+
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* navbar */
+
+nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+    margin: 20px 20px 10 30px;
+}
+nav ul {
+    display: contents;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 13px;
+
+}
+#scl{
+    margin-right: 500px;
+    margin-top: 29px;
+}
+#scl-bag{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+#home1{
+    color: #FEA301;
+    
+}
+#about1{
+    color: #01ACFD;
+}
+#facilities1{
+    color: #05D4DF;
+}
+#admission1{
+    color: #5D58EF;
+}
+#btn-primary{
+    background-color: #FEA301;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* school boys styles */
+.boys-container{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.boys-title{
+    font-size: 38px;
+    font-weight: bold;
+}
+.boys-description{
+    margin-top: -7px;
+}
+#first-clr{
+    color: #FEA301;
+}
+#second-clr{
+  color: #01ACFD;
+}
+.boys-btn{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    margin-top: 14px;
+}
+.boys-img{
+  width: 465px;
+  height: 560px;
+  margin-top: -100px;
+}
