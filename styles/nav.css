@@ -28,10 +28,6 @@ nav ul li{
 .nav-icon{
     display: none;
 }
-
-.horizon-bar{
-    display: none;
-}
 #scl{
     margin-right: 500px;
     margin-top: 29px;
@@ -208,6 +204,7 @@ nav ul li{
     gap: 20px;
     margin-left: 50px;
     margin-top: -600px;
+  
 }
 .fun{
     margin-left: 90px;
@@ -218,7 +215,7 @@ nav ul li{
     border-radius: 12px;
     box-shadow: 5px;
     background-color: whitesmoke;
-    /* position: absolute; */
+    
 }
 .fun-btn{
     margin-top: -90px;
@@ -230,6 +227,8 @@ nav ul li{
     border: none;
     border-radius: 26px;
     margin-left: 60px;
+    position: relative;
+    top: -18px;
 }
 .fun-title{
    margin-left: 40px;
@@ -256,6 +255,8 @@ nav ul li{
     padding-left: 15px;
     padding-right: 15px;
     margin-top: -80px;
+    position: relative;
+    top: -18px;
 }
 .fun-btn-3{
     color: white;
@@ -266,6 +267,8 @@ nav ul li{
     padding-left: 15px;
     padding-right: 15px;
     margin-top: -80px;
+    position: relative;
+    top: -18px;
 }
 .boy-btn-4{
     margin-top: 50px;
@@ -277,6 +280,7 @@ nav ul li{
     color: white;
     background-color: black;
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 /* footer section */
 .last-parts{
@@ -328,22 +332,63 @@ nav ul li{
 
 
 /* Responsive device for mobile */
+
 @media screen and (max-width: 576px) {
+    /* navbar */
     .nav-icon{
         display: inline-block;
         position: relative;
-        top: 10px;
-        left: -300px;
+        right: -70px;
+        top: 30px;
+        
+    }
+    .navbar{
+        border-bottom: 1px solid orange;
+        padding-bottom: 10px;
+        max-width: 390px;
     }
     
     
-    .homebar{
+    .homebar, #scl, .fun, .boys-icon {
         display: none;
+    }
+    /* boys container */
+    #scl-bag{
+        position: relative;
+        right: 170px;
     }
     .boys-container{    
        flex-direction: column-reverse;
-        width: 70%;
-        margin-right: 500px;
+       justify-content: center;
+        /* max-width: 350px; */
+        margin-top: 20px;
+    }
+    .boys-img{
+        max-width: 220px;
+        margin-top: 100px;
+        position: relative;
+        right: 100px;
+    }
+    .boys-info{
+        text-align: center;
+    }
+    .boys-title{
+        font-size: 2rem;
+    }
+    .boys-description{
+        font-size: 1rem;
+        margin-bottom: 24px;
+    }
+    /*  daily-routine */
+     .daily-routine{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+     }
 
+    /* stories */
+    .card-stories-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: -50px;
     }
 }
